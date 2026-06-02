@@ -1,0 +1,19 @@
+# 依赖包（太大，不需要上传）
+node_modules/
+
+# 打包产物（每次部署时重新构建）
+admin/dist/
+web/dist/
+
+# 数据库文件（每次部署自动生成，实际数据需备份）
+server/fruit.db
+server/fruit.db-shm
+server/fruit.db-wal
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+/tmp/
+*.log
