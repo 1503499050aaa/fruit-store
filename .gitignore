@@ -3,6 +3,11 @@ node_modules/
 
 # 打包产物 - 提前构建好直接上传，避免 Render 构建失败
 
+# 锁定文件（Mac和Linux不兼容，让Render自己装）
+server/package-lock.json
+admin/package-lock.json
+web/package-lock.json
+
 # 数据库文件（每次部署自动生成，实际数据需备份）
 server/fruit.db
 server/fruit.db-shm
